@@ -1,4 +1,4 @@
-const { add } = require('./calculator.js');
+const { add,{calculateMinus} } = require('./calculator.js');
 
 console.log("Please kindly help add below function");
 
@@ -8,5 +8,8 @@ let a = 5;
 let b = 10;
 
 console.log(add(a, b));
+//minus
+console.log(calculateMinus(a,b));
+
 
 // TODO: Simple area calculation - Rectangle, Triangle, Circle
