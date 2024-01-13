@@ -14,9 +14,14 @@ function divide(num1, num2) {
     return num1 / num2;
 }
 
+const divideByTwo = (num) => {
+    return num / 2;
+};
+
 module.exports = {
     add,
     minus,
     multiply,
-    divide
+    divide,
+    divideByTwo
 }
