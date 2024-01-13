@@ -1,8 +1,8 @@
 console.log("Head of area");
 
-function aaaaaa(base, height) {
+function triangle(base, height) {
   return (1 / 2) * base * height;
 }
 
-const aaaaaaArea = aaaaaa(6, 10);
-console.log(`aaaaaa area: ${aaaaaaArea}`);
+const triangleArea = triangle(6, 10);
+console.log(`Triangle area: ${triangleArea}`);
