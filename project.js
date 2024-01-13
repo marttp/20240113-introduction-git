@@ -7,6 +7,6 @@ console.log("Please kindly help add below function");
 let a = 5;
 let b = 10;
 
-console.log(add(a, b));
+console.log("Hello P'Mart")
 
 // TODO: Simple area calculation - Rectangle, Triangle, Circle
