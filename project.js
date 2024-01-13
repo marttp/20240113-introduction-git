@@ -1,16 +1,14 @@
-const { add, multiply } = require('./calculator.js');
-const { calculateMinus } = require('./minus.js')
+const { add, multiply, minus } = require('./calculator.js');
 
 console.log("Please kindly help add below function");
 
 // Simple Math
-// TODO: Simple calculator operation
 let a = 5;
 let b = 10;
 
 console.log("Hello P'Mart")
 console.log(add(a, b));
 console.log(multiply(a, b));
-console.log(calculateMinus(a, b));
+console.log(minus(a, b));
 
 // TODO: Simple area calculation - Rectangle, Triangle, Circle
