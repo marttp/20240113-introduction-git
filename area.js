@@ -1,7 +1,8 @@
 console.log("Head of area");
-//หาพื้นที่ 3 เหลี่ยมมุมฉาก
-function areaOfRightTriangle(base, height) {
-    return (base * height) / 2;
+
+function triangle(base, height) {
+  return (1 / 2) * base * height;
 }
 
-console.log(areaOfRightTriangle(5,7));
+const triangleArea = triangle(6, 10);
+console.log(`Triangle area: ${triangleArea}`);

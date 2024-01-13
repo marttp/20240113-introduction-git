@@ -11,4 +11,3 @@ console.log(multiply(a, b));
 console.log(minus(a, b));
 console.log(divide(a, b));
 console.log(divideByTwo(a, b));
-// TODO: Simple area calculation - Rectangle, Triangle, Circle
