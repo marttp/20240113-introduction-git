@@ -1,3 +1,3 @@
-let a=5,
-a /=2;
-console.log(a)
+let a = 10;
+a /= 2;
+console.log(a);git 
